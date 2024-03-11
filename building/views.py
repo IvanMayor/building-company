@@ -1,3 +1,8 @@
 from django.shortcuts import render
+from rest_framework import viewsets
 
-# Create your views here.
+from building.models import Building
+
+
+class BuildingView(viewsets.ModelViewSet):
+    queryset = Building.objects.all()
