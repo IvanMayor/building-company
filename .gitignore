@@ -261,7 +261,7 @@ poetry.toml
 .ruff_cache/
 
 .idea/
-
+building/migrations
 # LSP config files
 pyrightconfig.json
 
