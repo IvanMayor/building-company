@@ -4,7 +4,7 @@ from .views import BuildingView
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
-router.register(r"buildings", BuildingView)
+router.register(r"", BuildingView)
 
 
 urlpatterns = [path("", include(router.urls))]
